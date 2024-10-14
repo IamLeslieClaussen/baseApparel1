@@ -19,8 +19,28 @@
 
 .container__left__box {
   form {
-    img {
-      display: block;
+    .error-icon {
+      display: inline-block;
+      position: absolute;
+      right: 85px;
+      top: 10px;
+      display: none;
     }
   }
+
+  .error-message {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+    display: none;
+  }
+}
+
+.container__left__box form.error .error-icon {
+  display: block;
+}
+
+.container__left__box form.error .error-message {
+  display: block;
 }
