@@ -1,0 +1,26 @@
+.header-logo {
+  width: 100px;
+  height: 21px;
+  margin: 32px auto 32px 32px;
+
+  @include large {
+    display: none;
+  }
+}
+
+.container__left-logo {
+  display: none;
+
+  @include large {
+    display: block;
+    margin: 30px auto 0 30px;
+  }
+}
+
+.container__left__box {
+  form {
+    img {
+      display: block;
+    }
+  }
+}

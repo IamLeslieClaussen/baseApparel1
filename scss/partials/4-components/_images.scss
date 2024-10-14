@@ -1,0 +1,13 @@
+.container__right-img {
+  background: url(/images/hero-mobile.jpg);
+  @include cover-background;
+  width: 376px;
+  height: 250px;
+
+  @include large {
+    background: url(/images/hero-desktop.jpg);
+    @include cover-background;
+    width: 420px;
+    height: 630px;
+  }
+}

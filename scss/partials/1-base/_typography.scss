@@ -1,0 +1,45 @@
+.container__left__box__text {
+  margin-bottom: 32px;
+  text-align: center;
+
+  &-header {
+    text-transform: uppercase;
+    letter-spacing: 10.83px;
+    line-height: 42px;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 16px;
+
+    span {
+      color: $primary-desaturated-red;
+      font-weight: 300;
+    }
+  }
+
+  &-paragraph {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: $primary-desaturated-red;
+  }
+
+  @media (min-width: 1024px) {
+    // Adjust the breakpoint as needed
+    text-align: start;
+
+    .container__left__box__text {
+      width: 445px;
+    }
+
+    .container__left__box__text-header {
+      font-size: 64px;
+      line-height: 71px;
+      letter-spacing: 17.32px;
+    }
+
+    .container__left__box__text-paragraph {
+      font-size: 16px;
+      line-height: 28ox;
+    }
+  }
+}
